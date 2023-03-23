@@ -1,0 +1,55 @@
+@import './utils/vars.scss';
+@import './utils/reset.scss';
+@import './blocks/header.scss';
+@import './blocks/button.scss';
+@import './blocks/pageOne.scss';
+@import './blocks/pageTwo.scss';
+@import './blocks/pageInfo.scss';
+@import './blocks/thirdPage.scss';
+@import './blocks/fourthPage.scss';
+@import './blocks/fifthPage.scss';
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  height: 60vh;
+
+  background-image: url('../../images/map.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+
+  &__text{
+    margin: 100px 0 0 0;
+    text-align: center;
+    color: white;
+  }
+
+  &__input{
+    text-align: center;
+    // align-items: ;
+  }
+
+  &__contacts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    text-align: center;
+    align-items: center;
+
+    height: 70px;
+    width: 100%;
+    color: black;
+
+    background-color: yellow;
+  }
+}
+
+.input{
+  border-radius: 25px;
+  height: 28px;
+  width: 400px;
+}

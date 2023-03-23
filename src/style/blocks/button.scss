@@ -1,0 +1,45 @@
+.button-general{
+  width: 150px;
+  height: 30px;
+  margin-top: 50px;
+
+  background-color: yellow;
+  border: none;
+  border-radius: 20px;
+}
+
+.button{
+  position: relative;
+  top: -550px;
+  left: 425px;
+  width: 150px;
+  height: 30px;
+  margin-top: 50px;
+
+  background-color: yellow;
+  border: none;
+  border-radius: 20px;
+}
+
+.for-button{
+  :hover{
+    color: yellow;
+  }
+
+  :active{
+    display: none;
+  }
+}
+
+.for-button-1{
+  transition: all 500ms;
+
+  :hover{
+    transition: all 500ms;
+    scale: 1.1;
+  }
+
+  :active{
+    scale: 1;
+  }
+}

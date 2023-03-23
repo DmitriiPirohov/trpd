@@ -1,0 +1,34 @@
+.page-info{
+  position: absolute;
+  height: 100vh;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+
+  color: white;
+
+  background-color: $backcolor;
+  z-index: 1;
+  opacity: 0.6;
+}
+
+.page-info-first{
+  &__nav{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    padding: 100px 0 0 80px;
+  }
+
+  &__item{
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+  }
+}
+
+.page-info-second {
+  margin: -100px 0 0 0;
+  color: white;
+}

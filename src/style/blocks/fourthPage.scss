@@ -1,0 +1,102 @@
+.slider__manipulator-two{
+  margin: 120px 0 0 0;
+}
+.fourth-page{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sliderthree__line-three{
+  box-sizing: border-box;
+  position: relative;
+  left: 0px;
+  transition: all 1000ms;
+
+  &__firstblock{
+  }
+}
+
+.slider-three{
+  box-sizing: border-box;
+  height: 120vh;
+  // width: 1000px;
+
+  overflow: hidden;
+}
+
+.picture{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column-reverse;
+
+  &__cont{
+    display: flex;
+    align-items: flex-end;
+    opacity: 0;
+    height: 100%;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  &__box{
+    width: 100%;
+    height: 30%;
+    padding: 0 0 0 10px;
+    position: relative;
+    background-color: grey;
+    opacity: 0.7;
+
+    &--small{
+      padding-bottom: 50px;
+    }
+
+    &--litle{
+      padding-bottom: 75px;
+    }
+  }
+
+  &__h{
+    color: white;
+
+    opacity: 100;
+  }
+
+  &__text{
+    color: darkgray;
+  }
+
+  &__text2{
+    color: white;
+  }
+}
+
+.picture1{
+  background-image: url('../../images/flatiron.avif');
+}
+
+.picture2{
+  background-image: url('../../images/Screenshot_3.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.picture3{
+  background-image: url('../../images/Screenshot_4.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.picture4{
+  background-image: url('../../images/Screenshot_1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.picture5{
+  background-image: url('../../images/Screenshot_5.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}

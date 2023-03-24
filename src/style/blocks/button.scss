@@ -23,6 +23,7 @@
 
 .for-button{
   :hover{
+    cursor: pointer;
     color: yellow;
   }
 
@@ -35,6 +36,7 @@
   transition: all 500ms;
 
   :hover{
+    cursor: pointer;
     transition: all 500ms;
     scale: 1.1;
   }

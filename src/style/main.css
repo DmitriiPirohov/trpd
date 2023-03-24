@@ -66,6 +66,7 @@ main {
 }
 
 .for-button :hover {
+  cursor: pointer;
   color: yellow;
 }
 .for-button :active {
@@ -76,6 +77,7 @@ main {
   transition: all 500ms;
 }
 .for-button-1 :hover {
+  cursor: pointer;
   transition: all 500ms;
   scale: 1.1;
 }
